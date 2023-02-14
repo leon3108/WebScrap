@@ -1,0 +1,9 @@
+{
+	"dependencies": {
+		"mitt": "*",
+		"puppeteer": "^19.7.0"
+	},
+	"devDependencies": {
+		"@types/node": "^18.13.0"
+	}
+}
