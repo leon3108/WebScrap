@@ -7,8 +7,13 @@ async function scrape() {
         'ignoreHTTPSErrors': true
     });
     let page = await browser.newPage();
-    await page.goto("https://www.youtube.com/");
-    await page.screenshot({path :'exemple.png'});
+    await page.goto("https://www.instagram.com/?hl=fr");
+
+    const button = '[class="_a9-- _a9_1"]';
+    await page.waitForSelector(button);;
+    await page.click(button);
+
+    // await page.screenshot({path :'exemple.png'});
     await browser.close();
 }
 

@@ -4,13 +4,13 @@ specifiers:
   '@types/node': ^18.13.0
   mitt: '*'
   puppeteer: ^19.7.0
+  typescript: ^4.9.5
 
 dependencies:
-  mitt: 3.0.0
-  puppeteer: 19.7.0_mitt@3.0.0
-
-devDependencies:
   '@types/node': 18.13.0
+  mitt: 3.0.0
+  puppeteer: 19.7.0_hvhxseadxbhn3l3j2n3s2jdzfu
+  typescript: 4.9.5
 
 packages:
 
@@ -37,6 +37,7 @@ packages:
 
   /@types/node/18.13.0:
     resolution: {integrity: sha512-gC3TazRzGoOnoKAhUx+Q0t8S9Tzs74z7m0ipwGpSqQrleP14hKxP4/JUeEQcD3W1/aIpnWl8pHowI7WokuZpXg==}
+    dev: false
 
   /@types/yauzl/2.10.0:
     resolution: {integrity: sha512-Cn6WYCm0tXv8p6k+A8PvbDG763EDpBoTzHdA+Q/MF6H3sapGjCm9NzoaJncJS9tUKSuCoDs9XHxYYsQDgxR6kw==}
@@ -383,7 +384,7 @@ packages:
       once: 1.4.0
     dev: false
 
-  /puppeteer-core/19.7.0_mitt@3.0.0:
+  /puppeteer-core/19.7.0_hvhxseadxbhn3l3j2n3s2jdzfu:
     resolution: {integrity: sha512-BU05W24N+fWudCCeWxv/+R9fnMGmS6HCNPJbieoy0S4yAloVOoVDpOnHV8ZpFTGMPTHQ2EuPyZPWA+idPKO0pw==}
     engines: {node: '>=14.1.0'}
     peerDependencies:
@@ -401,6 +402,7 @@ packages:
       proxy-from-env: 1.1.0
       rimraf: 3.0.2
       tar-fs: 2.1.1
+      typescript: 4.9.5
       unbzip2-stream: 1.4.3
       ws: 8.11.0
     transitivePeerDependencies:
@@ -411,7 +413,7 @@ packages:
       - utf-8-validate
     dev: false
 
-  /puppeteer/19.7.0_mitt@3.0.0:
+  /puppeteer/19.7.0_hvhxseadxbhn3l3j2n3s2jdzfu:
     resolution: {integrity: sha512-ri4XTvTWL09E3L+SNhY9FKRdEOCRhFyyuBppg7D5lk9q4BZKvDWivpjstwmtz5lr8ufxju/jkn9y7uGowISHgw==}
     engines: {node: '>=14.1.0'}
     requiresBuild: true
@@ -420,7 +422,7 @@ packages:
       https-proxy-agent: 5.0.1
       progress: 2.0.3
       proxy-from-env: 1.1.0
-      puppeteer-core: 19.7.0_mitt@3.0.0
+      puppeteer-core: 19.7.0_hvhxseadxbhn3l3j2n3s2jdzfu
     transitivePeerDependencies:
       - bufferutil
       - encoding
@@ -494,6 +496,12 @@ packages:
 
   /tr46/0.0.3:
     resolution: {integrity: sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==}
+    dev: false
+
+  /typescript/4.9.5:
+    resolution: {integrity: sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
     dev: false
 
   /unbzip2-stream/1.4.3:
