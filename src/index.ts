@@ -1,4 +1,4 @@
-import handler from './api/handler.js';
+import handler from '../api/handler.js';
 const puppeteer = require('puppeteer');
 // import account from '../config.js';
 
