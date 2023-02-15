@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx tsc src/index.ts && node src/index.js"
+    "start": "npx tsc src/api/handler.ts && npx tsc src/index.ts && node src/index.js"
   },
   "keywords": [],
   "author": "",
