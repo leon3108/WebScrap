@@ -3,7 +3,7 @@ const puppeteer = require('puppeteer');
 // import account from '../config.js';
 
 async function scrape() {
-    handler();
+    console.log(handler());
     let browser = await puppeteer.launch({
         headless: true,
         args: ["--disable-setuid-sandbox", "--no-sandbox"],
